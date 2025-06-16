@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E6F6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Judul -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TPS"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Tes Potensi Skolastik)"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Spasi -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <!-- Subjudul & Card 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penalaran Umum"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/card_modul"
+            android:gravity="center"
+            android:padding="8dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/textCard1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penalaran Umum (TPS)"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!-- Subjudul & Card 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kemampuan Kuantitatif"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:id="@+id/card2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/card_modul"
+            android:gravity="center"
+            android:padding="8dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/textCard2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kemampuan Kuantitatif (TPS)"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!-- Subjudul & Card 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengetahuan dan Pemahaman Umum"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:id="@+id/card3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/card_modul"
+            android:gravity="center"
+            android:padding="8dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/textCard3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pengetahuan dan Pemahaman Umum (TPS)"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!-- Subjudul & Card 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kemampuan Memahami Bacaan dan Menulis"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:id="@+id/card4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/card_modul"
+            android:gravity="center"
+            android:padding="8dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/textCard4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kemampuan Memahami Bacaan dan Menulis (TPS)"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
